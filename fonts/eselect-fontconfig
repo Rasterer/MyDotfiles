@@ -1,0 +1,49 @@
+Available fontconfig .conf files (* is enabled):
+  [1]   10-autohint.conf *
+  [2]   10-hinting-full.conf
+  [3]   10-hinting-medium.conf
+  [4]   10-hinting-none.conf
+  [5]   10-hinting-slight.conf *
+  [6]   10-no-sub-pixel.conf
+  [7]   10-scale-bitmap-fonts.conf *
+  [8]   10-sub-pixel-bgr.conf
+  [9]   10-sub-pixel-rgb.conf *
+  [10]  10-sub-pixel-vbgr.conf
+  [11]  10-sub-pixel-vrgb.conf
+  [12]  10-unhinted.conf
+  [13]  11-lcdfilter-default.conf *
+  [14]  11-lcdfilter-legacy.conf
+  [15]  11-lcdfilter-light.conf
+  [16]  20-unhint-small-dejavu-sans.conf *
+  [17]  20-unhint-small-dejavu-sans-mono.conf *
+  [18]  20-unhint-small-dejavu-serif.conf *
+  [19]  20-unhint-small-vera.conf *
+  [20]  25-unhint-nonlatin.conf
+  [21]  30-metric-aliases.conf *
+  [22]  30-urw-aliases.conf *
+  [23]  40-nonlatin.conf *
+  [24]  43-wqy-zenhei-sharp.conf
+  [25]  44-wqy-zenhei.conf *
+  [26]  45-latin.conf *
+  [27]  49-sansserif.conf *
+  [28]  50-user.conf *
+  [29]  51-local.conf *
+  [30]  52-infinality.conf *
+  [31]  57-dejavu-sans.conf *
+  [32]  57-dejavu-sans-mono.conf *
+  [33]  57-dejavu-serif.conf *
+  [34]  60-latin.conf *
+  [35]  62-croscore-arimo.conf
+  [36]  62-croscore-cousine.conf
+  [37]  62-croscore-symbolneu.conf
+  [38]  62-croscore-tinos.conf
+  [39]  65-fonts-persian.conf *
+  [40]  65-khmer.conf
+  [41]  65-nonlatin.conf *
+  [42]  69-unifont.conf *
+  [43]  70-no-bitmaps.conf *
+  [44]  70-yes-bitmaps.conf
+  [45]  80-delicious.conf
+  [46]  85-wqy-bitmapsong.conf
+  [47]  90-synthetic.conf *
+  [48]  99pdftoopvp.conf

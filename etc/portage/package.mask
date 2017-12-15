@@ -1,0 +1,2 @@
+# For ufo build
+>=sys-devel/make-3.82-r4

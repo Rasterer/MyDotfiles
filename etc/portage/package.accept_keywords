@@ -1,0 +1,25 @@
+=app-i18n/fcitx-sogoupinyin-0.0.6 ~amd64
+=x11-libs/compizconfig-backend-gconf-0.8.8 ~amd64
+=x11-libs/libcompizconfig-0.8.8 ~amd64
+=x11-wm/compiz-0.9.99.20130608170409 ~amd64
+=x11-plugins/compiz-plugins-main-0.8.8 ~amd64
+=x11-themes/emerald-themes-0.5.2 ~amd64
+=x11-wm/emerald-0.8.8-r1 ~amd64
+=x11-libs/compiz-bcop-0.8.8 ~amd64
+=x11-wm/compiz-fusion-0.8.8 ~amd64
+=x11-misc/ccsm-0.8.4-r5 ~amd64
+=x11-plugins/compiz-plugins-extra-0.8.8 ~amd64
+=x11-apps/fusion-icon-0.1-r4 ~amd64
+=dev-python/compizconfig-python-0.8.4-r5 ~amd64
+www-client/google-chrome ~amd64
+# required by dev-util/perf (argument)
+=dev-util/perf-4.1.5-r1 ~amd64
+=sys-libs/libudev-compat-186 ~amd64
+app-office/wps-office ~amd64
+
+# because glibc 2.23-r4 emerge failure.
+=sys-libs/glibc-2.24-r4 ~amd64
+
+# required by glsoftpipe
+=media-libs/glm-0.9.7.6 ~amd64
+=media-gfx/imagemagick-6.9.9.9 ~amd64
