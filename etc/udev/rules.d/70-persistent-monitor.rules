@@ -1,0 +1,2 @@
+#!/bin/bash
+#KERNEL=="card0", SUBSYSTEM=="drm", ACTION=="change", RUN+="/bin/su jzb -c '/home/jzb/bin/monitor_hotplug.sh'"
