@@ -1,39 +1,39 @@
-[review "https://android.intel.com"]
-	username = zhebinj
+;[review "https://android.intel.com"]
+;	username = zhebinj
 [user]
 	name = Zhebin Jin
 	email = zhebin.jin@intel.com
 [color]
 	ui = auto
-[review "android.intel.com:8080"]
-	username = zhebinj
+;[review "android.intel.com:8080"]
+;	username = zhebinj
 
-[url "ssh://zhebinj@android-mirror-sh.devtools.intel.com:29418/"]
-insteadOf=git://android.intel.com/
-insteadOf=ssh://android.intel.com/
-insteadOf=ssh://android.intel.com:29418/
-insteadOf=git://android-mirror-sh.devtools.intel.com/
-insteadOf=ssh://android-mirror-sh.devtools.intel.com/
-insteadOf=git://android-mirror.devtools.intel.com/
-insteadOf=ssh://android-mirror.devtools.intel.com/
-insteadOf=ssh://android-mirror.devtools.intel.com:29418/
-insteadOf=git://jfumg-gcrmirror.jf.intel.com/
-insteadOf=ssh://jfumg-gcrmirror.jf.intel.com/
-insteadOf=ssh://jfumg-gcrmirror.jf.intel.com:29418/
-insteadOf=ssh://gerrit-sh1.sh.intel.com/
-insteadOf=ssh://gerrit-sh1.sh.intel.com:29418/
+;[url "ssh://zhebinj@android-mirror-sh.devtools.intel.com:29418/"]
+;insteadOf=git://android.intel.com/
+;insteadOf=ssh://android.intel.com/
+;insteadOf=ssh://android.intel.com:29418/
+;insteadOf=git://android-mirror-sh.devtools.intel.com/
+;insteadOf=ssh://android-mirror-sh.devtools.intel.com/
+;insteadOf=git://android-mirror.devtools.intel.com/
+;insteadOf=ssh://android-mirror.devtools.intel.com/
+;insteadOf=ssh://android-mirror.devtools.intel.com:29418/
+;insteadOf=git://jfumg-gcrmirror.jf.intel.com/
+;insteadOf=ssh://jfumg-gcrmirror.jf.intel.com/
+;insteadOf=ssh://jfumg-gcrmirror.jf.intel.com:29418/
+;insteadOf=ssh://gerrit-sh1.sh.intel.com/
+;insteadOf=ssh://gerrit-sh1.sh.intel.com:29418/
 
 
 
-[url "ssh://zhebinj@android.intel.com:29418/"]
-pushInsteadOf=ssh://android.intel.com/
-pushInsteadOf=ssh://android.intel.com:29418/
-pushInsteadOf=ssh://jfumg-gcrmirror.jf.intel.com/
-pushInsteadOf=ssh://jfumg-gcrmirror.jf.intel.com:29418/
-pushInsteadOf=ssh://android-mirror.devtools.intel.com/
-pushInsteadOf=ssh://android-mirror.devtools.intel.com:29418/
-pushInsteadOf=ssh://android-mirror-sh.devtools.intel.com/
-pushInsteadOf=ssh://android-mirror-sh.devtools.intel.com:29418/
+;[url "ssh://zhebinj@android.intel.com:29418/"]
+;pushInsteadOf=ssh://android.intel.com/
+;pushInsteadOf=ssh://android.intel.com:29418/
+;pushInsteadOf=ssh://jfumg-gcrmirror.jf.intel.com/
+;pushInsteadOf=ssh://jfumg-gcrmirror.jf.intel.com:29418/
+;pushInsteadOf=ssh://android-mirror.devtools.intel.com/
+;pushInsteadOf=ssh://android-mirror.devtools.intel.com:29418/
+;pushInsteadOf=ssh://android-mirror-sh.devtools.intel.com/
+;pushInsteadOf=ssh://android-mirror-sh.devtools.intel.com:29418/
 
 
 
@@ -81,9 +81,9 @@ pushInsteadOf=ssh://android-mirror-sh.devtools.intel.com:29418/
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [credential]
 	helper = cache --timeout=36000
-[http]
-	cookiefile = /home/jzb/.gitcookies
-	; WA for Google partner repo
-	;sslVerify = false
-[https]
-	cookiefile = /home/jzb/.gitcookies
+;[http]
+;	cookiefile = /home/jzb/.gitcookies
+;	; WA for Google partner repo
+;	;sslVerify = false
+;[https]
+;	cookiefile = /home/jzb/.gitcookies

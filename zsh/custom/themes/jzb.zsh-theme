@@ -9,8 +9,9 @@
 # PROMPT='[%B%{$fg[red]%}%B%n%b%{$reset_color%}@%{$fg[magenta]%}%B%m%b%{$reset_color%}:%{$fg[blue]%}%B%~%b%{$reset_color%}$(git_prompt_info)]
 
 if [[ "$TERM" != "dumb" ]] && [[ "$DISABLE_LS_COLORS" != "true" ]]; then
+    return_code="%(?..%{$fg[red]%}%? %{$reset_color%})"
     PROMPT='[%{$fg[red]%}%B%n%b%{$reset_color%}@%{$fg[magenta]%}%B%m%b%{$reset_color%}:%{$FG[166]%}%B%~%b%{$reset_color%}]
-0 %{$fg[red]%}%B>%b%{$reset_color%} '
+${return_code} %{$fg[red]%}%B>%b%{$reset_color%} '
 
     # display exitcode on the right when >0
     #return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"

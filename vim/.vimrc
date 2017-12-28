@@ -60,7 +60,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 Plugin 'majutsushi/tagbar'
-Plugin 'vim-scripts/Mark'
+Plugin 'inkarkat/vim-ingo-library'
+Plugin 'inkarkat/vim-mark'
 Plugin 'scrooloose/nerdcommenter'
 "Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'Shougo/unite.vim'
@@ -198,9 +199,9 @@ nnoremap <silent> <F12> :A<CR>
 """"""""""""""""""""""""""""""
 nmap mk <Plug>MarkSet
 "vmap mk <Plug>MarkSet
-nmap mm <Plug>MarkClear
+nmap mm <Plug>MarkAllClear
 "vmap mm <Plug>MarkClear
-nmap me <Plug>MarkRegex
+"nmap me <Plug>MarkRegex
 "vmap me <Plug>MarkRegex
 
 " rainbow setting

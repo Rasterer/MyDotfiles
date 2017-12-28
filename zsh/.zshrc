@@ -73,9 +73,13 @@ source $ZSH/oh-my-zsh.sh
 
 #export TERM=screen-256color
 export TERM=xterm-256color
-export DISPLAY=":0.0"
+#export DISPLAY=":0.0"
 export EDITOR='vim'
-export MANPAGER="vimmanpager -R -c 'set background=back'"
+
+if [ -x "/usr/bin/vimmanpager" ] ; then
+  export MANPAGER="vimmanpager -R -c 'set background=back'"
+fi
+
 alias df='df -h'
 alias du='du -sh'
 alias tmux='tmux -2'
