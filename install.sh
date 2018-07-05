@@ -20,6 +20,7 @@ mv ~/.vim ~/.dotfiles.bak/ 2>/dev/null
 mv ~/.gitconfig ~/.dotfiles.bak/ 2>/dev/null
 mv ~/.tmux.conf ~/.dotfiles.bak/ 2>/dev/null
 mv ~/.profile ~/.dotfiles.bak/ 2>/dev/null
+mv ~/.gitmessage ~/.dotfiles.bak/ 2>/dev/null
 mv zsh/oh-my-zsh ~/.dotfiles.bak/ 2>/dev/null
 mv vim/.vim/bundle ~/.dotfiles.bak/ 2>/dev/null
 
@@ -36,6 +37,7 @@ ln -s $PWD/zsh/oh-my-zsh    ~/.oh-my-zsh
 ln -s $PWD/vim/.vimrc       ~/.vimrc
 ln -s $PWD/vim/.vim         ~/.vim
 ln -s $PWD/git/.gitconfig   ~/.gitconfig
+ln -s $PWD/git/.gitmessage  ~/.gitmessage
 ln -s $PWD/tmux/.tmux.conf  ~/.tmux.conf
 
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes

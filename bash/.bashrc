@@ -112,6 +112,7 @@ bind 'set completion-ignore-case on'
 #bind 'set show-all-if-ambiguous on'
 alias wine='env LANG=en_US wine'
 
+export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/lib/ccache/bin:$PATH" # Enable CCACHE
 

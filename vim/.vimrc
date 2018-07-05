@@ -1,11 +1,12 @@
 """""""""""""""""""""""""""""
 " base setting				"
 """""""""""""""""""""""""""""
+set nocompatible
 set tabstop=4
-set sw=4
+set shiftwidth=4
 set expandtab
-set backspace=2
-set nu!
+set backspace=indent,eol,start
+set nu
 "set autochdir
 set hls
 set laststatus=2
@@ -17,12 +18,10 @@ set wildmenu
 set nosol
 syntax enable
 syntax on
-"filetype off
 "set foldmethod=indent
 filetype on
-set smartindent
+"set smartindent
 set autoindent
-set ai!
 set mouse=
 set so=10
 set nobackup
@@ -43,9 +42,8 @@ autocmd FileType make setlocal noexpandtab
 
 
 " GLSL highlighting
-"set syntax=glsl
-"autocmd BufNewFile,BufRead *.vp,*.fp,*.gp,*.vs,*.fs,*.gs,*.tcs,*.tes,*.cs,*.vert,*.frag,*.geom,*.tess,*.shd,*.gls,*.glsl set ft=glsl
-
+set syntax=glsl
+autocmd BufNewFile,BufRead *.vp,*.fp,*.gp,*.vs,*.fs,*.gs,*.tcs,*.tes,*.cs,*.vert,*.frag,*.geom,*.tess,*.shd,*.gls,*.glsl set ft=glsl
 
 """""""""""""""""""""""""""""
 " vundle plugin manger		"
@@ -70,7 +68,8 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'vim-scripts/sessionman.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'Superbil/llvm.vim'
+Plugin 'vim-scripts/Conque-GDB'
+"Plugin 'Superbil/llvm.vim'
 "Plugin 'gaffneyc/vim-cdargs'
 "Plugin 'vim-scripts/Tabmerge'
 "Plugin 'vim-scripts/gtags.vim'
@@ -92,12 +91,12 @@ filetype plugin indent on
 let g:cpp_class_scope_highlight = 1
 
 "Plugin 'Superbil/llvm.vim'
-augroup filetype
-  au! BufRead,BufNewFile *.ll     set filetype=llvm
-augroup END
-augroup filetype
-  au! BufRead,BufNewFile *.td     set filetype=tablegen
-augroup END
+"augroup filetype
+  "au! BufRead,BufNewFile *.ll     set filetype=llvm
+"augroup END
+"augroup filetype
+  "au! BufRead,BufNewFile *.td     set filetype=tablegen
+"augroup END
 
 
 

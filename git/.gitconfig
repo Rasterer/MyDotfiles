@@ -1,8 +1,8 @@
 ;[review "https://android.intel.com"]
 ;	username = zhebinj
 [user]
-	name = Zhebin Jin
-	email = zhebin.jin@intel.com
+	name = zhebin.jzb
+	email = zhebin.jzb@alibaba-inc.com
 [color]
 	ui = auto
 ;[review "android.intel.com:8080"]
@@ -77,8 +77,8 @@
 	;insteadOf=git://jfumg-gcrmirror.jf.intel.com/
 [core]
 	editor = vim
-[alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+;[alias]
+	;lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [credential]
 	helper = cache --timeout=36000
 ;[http]
@@ -87,3 +87,9 @@
 ;	;sslVerify = false
 ;[https]
 ;	cookiefile = /home/jzb/.gitcookies
+[diff]
+	wsErrorHighlight = all
+[color "diff"]
+	whitespace = red reverse
+[commit]
+	template = /home/jzb/.gitmessage
