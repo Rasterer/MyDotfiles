@@ -92,4 +92,4 @@
 [color "diff"]
 	whitespace = red reverse
 [commit]
-	template = /home/jzb/.gitmessage
+	template = ~/.gitmessage
