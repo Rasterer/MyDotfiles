@@ -1,11 +1,13 @@
 xrefall() {
 	find . -name '*.java' -exec echo '"'{}'"' >  cscope.files \;
 	find . -name '*.cpp'  -exec echo '"'{}'"' >> cscope.files \;
+	find . -name '*.cc'   -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.c'    -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.h'    -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.S'    -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.inl'  -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.js'   -exec echo '"'{}'"' >> cscope.files \;
+	find . -name '*.py'   -exec echo '"'{}'"' >> cscope.files \;
 	cscope -bkq -i cscope.files
 }
 
