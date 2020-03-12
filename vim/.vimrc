@@ -27,7 +27,7 @@ set so=10
 set nobackup
 set noswapfile
 set completeopt=longest,menu,preview
-"set cursorline
+set cursorline
 "set t_Co=256
 "<> match pair
 set mps+=<:>
@@ -69,6 +69,7 @@ Plugin 'tikhomirov/vim-glsl'
 Plugin 'vim-scripts/sessionman.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'vim-scripts/Conque-GDB'
+Plugin 'zxqfl/tabnine-vim'
 "Plugin 'Superbil/llvm.vim'
 "Plugin 'gaffneyc/vim-cdargs'
 "Plugin 'vim-scripts/Tabmerge'
@@ -170,6 +171,7 @@ if has("cscope")
 		cs add $CSCOPE_DB
 	endif
 	set csverb
+	set csre
 endif
 
 nmap <C-F12> :!cscope -Rbkq<CR>
