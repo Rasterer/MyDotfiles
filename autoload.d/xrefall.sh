@@ -2,6 +2,7 @@ xrefall() {
 	find . -name '*.java' -exec echo '"'{}'"' >  cscope.files \;
 	find . -name '*.cpp'  -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.cc'   -exec echo '"'{}'"' >> cscope.files \;
+	find . -name '*.c++'  -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.c'    -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.h'    -exec echo '"'{}'"' >> cscope.files \;
 	find . -name '*.S'    -exec echo '"'{}'"' >> cscope.files \;

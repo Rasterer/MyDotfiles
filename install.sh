@@ -24,7 +24,7 @@ mv ~/.gitmessage ~/.dotfiles.bak/ 2>/dev/null
 mv zsh/oh-my-zsh ~/.dotfiles.bak/ 2>/dev/null
 mv vim/.vim/bundle ~/.dotfiles.bak/ 2>/dev/null
 
-git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git zsh/oh-my-zsh/
+git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git zsh/oh-my-zsh/
 cp -r zsh/custom zsh/oh-my-zsh/
 
 git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git vim/.vim/bundle/Vundle.vim/

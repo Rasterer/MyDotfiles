@@ -46,7 +46,7 @@ export PATH="/usr/lib/ccache/bin:${PATH}" # Enable CCACHE
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 # This loads RVM into a shell session.
 
-#export http_proxy='http://30.42.102.131:8080'
-#export https_proxy='http://30.12.18.44:8080'
+export http_proxy='http://30.42.103.74:3128'
+export https_proxy='http://30.42.103.74:3128'
 
 alias python=python3
